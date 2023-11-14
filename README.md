@@ -8,3 +8,11 @@
 - Media folder: `images`
 - CSS folder: `styles`
 - JavaScript folder: `scripts`
+
+### Layout Draft
+
+- `header`
+- `nav`
+- `aside`
+- `main`
+- `footer`
