@@ -47,3 +47,21 @@ html {
 <body>...</body>
 </html>
 ```
+
+- Header content: add an `<h1></h1>` heading tag, and a `<p></p>` paragraph tag inside the `<header></header>` container.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>...
+</head>
+<body>
+❌ <header></header>
+    <header>
+👉🏽      <h1>Website</h1>
+👉🏽      <p>How to make a Website</p>
+    </header>
+    ...
+</body>
+</html>
+```
