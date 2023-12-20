@@ -193,13 +193,13 @@ header {...
 }
 
 header h1 {
-    font-size: 2.4rem; 👈🏽
-    line-height: 2.6rem; 👈🏽
+    font-size: 3.2rem; 👈🏽
+    line-height: 3.4rem; 👈🏽
 }
 
 header p {
-    font-size: 1.4rem; 👈🏽
-    line-height: 1.8rem; 👈🏽
+    font-size: 1.8rem; 👈🏽
+    line-height: 2.2rem; 👈🏽
 }
 
 ```
