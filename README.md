@@ -205,3 +205,52 @@ header p {
 ```
 
 ![Header - font-size & line-height](https://i.imgur.com/YkGfPz1.png)
+
+### Link CSS with the `media` attribute
+
+- Add a new `desktop.css` file inside the `styles` folder.
+
+```css
+header h1 {
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+
+header p {
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+}
+
+```
+
+- Link the `desktop.css` file to the `index.html`.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ...
+👉🏽  <link rel="stylesheet" href="./styles/desktop.css">
+</head>
+<body>...
+</body>
+</html>
+```
+
+- Add the `media` attribute to the `link` tag.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ...
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 768px)">
+</head>
+<body>...
+</body>
+</html>
+```
+
+- By setting the values `screen` and `min-width: 768px` means the styles inside the `desktop.css` file will apply only if the screen width is equal or bigger than `768 pixels`.
+
+![Header - Desktop: font-size](https://i.imgur.com/gvy50FE.png)
