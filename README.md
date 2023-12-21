@@ -254,3 +254,33 @@ header p {
 - By setting the values `screen` and `min-width: 768px` means the styles inside the `desktop.css` file will apply only if the screen width is equal or bigger than `768 pixels`.
 
 ![Header - Desktop: font-size](https://i.imgur.com/gvy50FE.png)
+
+### CSS custom properties
+
+- Define custom properties at the top of the `main.css` file using the `:root` pseudo-class.
+
+```css
+:root {
+    /* Colors */
+    --mountain-meadow: #1abc9c;
+    --white: #ffffff;
+}
+
+...
+```
+
+- Then replace the direct use of the hexadecimal values in both the `background` and `color` properties at the `header` selector by using the custom properties defined above.
+
+```css
+...
+
+header {
+    background: #1abc9c; ❌
+    color: #ffffff; ❌
+    background: var(--mountain-meadow); 👈🏽
+    color: var(--white); 👈🏽
+    ...
+}
+
+...
+```

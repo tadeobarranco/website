@@ -1,3 +1,9 @@
+:root {
+    /* Colors */
+    --mountain-meadow: #1abc9c;
+    --white: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,8 +16,8 @@ html {
 }
 
 header {
-    background: #1abc9c;
-    color: #ffffff;
+    background: var(--mountain-meadow);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     height: 320px;
